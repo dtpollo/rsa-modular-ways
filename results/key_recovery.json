@@ -1,0 +1,52 @@
+{
+  "experiment": "key_recovery",
+  "machine": {
+    "date": "2026-09-23T00:46:01",
+    "os": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "python": "CPython 3.12.10"
+  },
+  "parameters": {
+    "n": 3233,
+    "e": 17,
+    "c": 2790
+  },
+  "results": [
+    {
+      "algorithm": "Trial Division",
+      "p": 53,
+      "q": 61,
+      "iterations": 27,
+      "time_s": 1.300000076298602e-05,
+      "phi": 3120,
+      "d": 2753,
+      "m": 65,
+      "pq_equals_n": true,
+      "reencrypt_matches_c": true
+    },
+    {
+      "algorithm": "Fermat",
+      "p": 53,
+      "q": 61,
+      "iterations": 1,
+      "time_s": 9.999999747378752e-06,
+      "phi": 3120,
+      "d": 2753,
+      "m": 65,
+      "pq_equals_n": true,
+      "reencrypt_matches_c": true
+    },
+    {
+      "algorithm": "Pollard's Rho",
+      "p": 53,
+      "q": 61,
+      "iterations": 6,
+      "time_s": 1.0100000508828089e-05,
+      "phi": 3120,
+      "d": 2753,
+      "m": 65,
+      "pq_equals_n": true,
+      "reencrypt_matches_c": true
+    }
+  ]
+}

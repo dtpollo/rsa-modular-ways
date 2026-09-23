@@ -1,0 +1,89 @@
+{
+  "experiment": "fermat_distance",
+  "machine": {
+    "date": "2026-09-23T00:46:03",
+    "os": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "python": "CPython 3.12.10"
+  },
+  "parameters": {
+    "bits": 40,
+    "ratios": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "repeats": 3
+  },
+  "results": [
+    {
+      "case": "close",
+      "ratio": 1,
+      "bits": 40,
+      "n": 824658323413,
+      "p": 908101,
+      "q": 908113,
+      "distance": 12,
+      "iterations": 1,
+      "predicted_iterations": 1,
+      "times_s": [
+        1.2900000001536682e-05,
+        9.100000170292333e-06,
+        7.399998139590025e-06
+      ],
+      "mean_s": 9.79999943713968e-06
+    },
+    {
+      "case": "far (q/p~2)",
+      "ratio": 2,
+      "bits": 40,
+      "n": 824652241823,
+      "p": 642121,
+      "q": 1284263,
+      "distance": 642142,
+      "iterations": 55089,
+      "predicted_iterations": 55089,
+      "times_s": [
+        0.008171599998604506,
+        0.008236699999542907,
+        0.008128599998599384
+      ],
+      "mean_s": 0.008178966665582266
+    },
+    {
+      "case": "far (q/p~4)",
+      "ratio": 4,
+      "bits": 40,
+      "n": 824638798601,
+      "p": 454061,
+      "q": 1816141,
+      "distance": 1362080,
+      "iterations": 227005,
+      "predicted_iterations": 227005,
+      "times_s": [
+        0.034595399996760534,
+        0.03481079999983194,
+        0.03465330000108224
+      ],
+      "mean_s": 0.03468649999922491
+    },
+    {
+      "case": "far (q/p~8)",
+      "ratio": 8,
+      "bits": 40,
+      "n": 824635224229,
+      "p": 321073,
+      "q": 2568373,
+      "distance": 2247300,
+      "iterations": 536629,
+      "predicted_iterations": 536629,
+      "times_s": [
+        0.07994770000004792,
+        0.08079599999837228,
+        0.07971879999968223
+      ],
+      "mean_s": 0.08015416666603414
+    }
+  ]
+}
