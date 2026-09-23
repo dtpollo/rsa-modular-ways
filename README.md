@@ -186,7 +186,7 @@ Running an experiment again replaces its JSON file.
 ## Project structure
 
 ```
-factorization-rsa-ways/
+rsa-modular-ways/
 ├── src/
 │   ├── number_theory.py    # gcd, extended_gcd, mod_inverse, mod_pow, isqrt, is_prime, random_prime
 │   ├── factorization.py    # trial_division, fermat, pollard_rho
@@ -200,8 +200,7 @@ factorization-rsa-ways/
 │   └── plot_results.py     # figures from the JSON files
 ├── tests/                  # Exercise 5
 ├── results/                # JSON files and figures
-├── report/
-│   └── main.pdf            # final report
+├── main.pdf                # final report
 ├── requirements.txt
 ├── pytest.ini
 └── README.md
